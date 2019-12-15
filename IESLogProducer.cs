@@ -6,6 +6,6 @@ namespace DataStreaming
 {
     public interface IESLogProducer
     {
-        void Produce(string message);
+        void Produce();  // string message
     }
 }
